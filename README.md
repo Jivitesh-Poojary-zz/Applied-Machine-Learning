@@ -1,2 +1,2 @@
 # Applied-Machine-Learning
-Programs and proofs for CSCI - B565 Data Mining assignments
+Programs and proofs for CSCI - B659 Applied Machine Learning assignments
