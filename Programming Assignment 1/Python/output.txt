@@ -1,0 +1,487 @@
+
+----------------------------------------- Monks1 -----------------------------------------
+ Depth:  0
+   Accuracy: 49.76851851851852
+   True Positive: 215
+   True Negative: 0
+   False Positive: 217
+   False negative: 0
+ Depth:  1
+   Accuracy: 66.43518518518519
+   True Positive: 143
+   True Negative: 144
+   False Positive: 73
+   False negative: 72
+ Depth:  2
+   Accuracy: 78.93518518518519
+   True Positive: 173
+   True Negative: 168
+   False Positive: 49
+   False negative: 42
+ Depth:  3
+   Accuracy: 80.32407407407408
+   True Positive: 167
+   True Negative: 180
+   False Positive: 37
+   False negative: 48
+ Depth:  4
+   Accuracy: 82.17592592592592
+   True Positive: 175
+   True Negative: 180
+   False Positive: 37
+   False negative: 40
+ Depth:  5
+   Accuracy: 88.6574074074074
+   True Positive: 188
+   True Negative: 195
+   False Positive: 22
+   False negative: 27
+ Depth:  6
+   Accuracy: 90.04629629629629
+   True Positive: 188
+   True Negative: 201
+   False Positive: 16
+   False negative: 27
+ Depth:  7
+   Accuracy: 88.6574074074074
+   True Positive: 184
+   True Negative: 199
+   False Positive: 18
+   False negative: 31
+ Depth:  8
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  9
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  10
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  11
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  12
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  13
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  14
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  15
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  16
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  17
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  18
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+ Depth:  19
+   Accuracy: 92.36111111111111
+   True Positive: 192
+   True Negative: 207
+   False Positive: 10
+   False negative: 23
+----------------------------------------- Monks2 -----------------------------------------
+ Depth:  0
+   Accuracy: 32.870370370370374
+   True Positive: 142
+   True Negative: 0
+   False Positive: 290
+   False negative: 0
+ Depth:  1
+   Accuracy: 56.018518518518526
+   True Positive: 66
+   True Negative: 176
+   False Positive: 114
+   False negative: 76
+ Depth:  2
+   Accuracy: 56.018518518518526
+   True Positive: 62
+   True Negative: 180
+   False Positive: 110
+   False negative: 80
+ Depth:  3
+   Accuracy: 53.93518518518518
+   True Positive: 78
+   True Negative: 155
+   False Positive: 135
+   False negative: 64
+ Depth:  4
+   Accuracy: 58.56481481481482
+   True Positive: 59
+   True Negative: 194
+   False Positive: 96
+   False negative: 83
+ Depth:  5
+   Accuracy: 59.02777777777778
+   True Positive: 64
+   True Negative: 191
+   False Positive: 99
+   False negative: 78
+ Depth:  6
+   Accuracy: 61.80555555555556
+   True Positive: 58
+   True Negative: 209
+   False Positive: 81
+   False negative: 84
+ Depth:  7
+   Accuracy: 61.80555555555556
+   True Positive: 54
+   True Negative: 213
+   False Positive: 77
+   False negative: 88
+ Depth:  8
+   Accuracy: 63.19444444444444
+   True Positive: 61
+   True Negative: 212
+   False Positive: 78
+   False negative: 81
+ Depth:  9
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  10
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  11
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  12
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  13
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  14
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  15
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  16
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  17
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  18
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+ Depth:  19
+   Accuracy: 63.19444444444444
+   True Positive: 60
+   True Negative: 213
+   False Positive: 77
+   False negative: 82
+----------------------------------------- Monks3 -----------------------------------------
+ Depth:  0
+   Accuracy: 52.77777777777778
+   True Positive: 228
+   True Negative: 0
+   False Positive: 204
+   False negative: 0
+ Depth:  1
+   Accuracy: 55.55555555555556
+   True Positive: 78
+   True Negative: 162
+   False Positive: 42
+   False negative: 150
+ Depth:  2
+   Accuracy: 68.51851851851852
+   True Positive: 112
+   True Negative: 184
+   False Positive: 20
+   False negative: 116
+ Depth:  3
+   Accuracy: 83.33333333333334
+   True Positive: 172
+   True Negative: 188
+   False Positive: 16
+   False negative: 56
+ Depth:  4
+   Accuracy: 89.12037037037037
+   True Positive: 196
+   True Negative: 189
+   False Positive: 15
+   False negative: 32
+ Depth:  5
+   Accuracy: 88.19444444444444
+   True Positive: 192
+   True Negative: 189
+   False Positive: 15
+   False negative: 36
+ Depth:  6
+   Accuracy: 89.12037037037037
+   True Positive: 196
+   True Negative: 189
+   False Positive: 15
+   False negative: 32
+ Depth:  7
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  8
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  9
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  10
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  11
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  12
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  13
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  14
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  15
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  16
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  17
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  18
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+ Depth:  19
+   Accuracy: 88.6574074074074
+   True Positive: 194
+   True Negative: 189
+   False Positive: 15
+   False negative: 34
+----------------------------------------- Own data -----------------------------------------
+ Depth:  0
+   Accuracy: 26.0
+   True Positive: 65
+   True Negative: 0
+   False Positive: 185
+   False negative: 0
+ Depth:  1
+   Accuracy: 31.2
+   True Positive: 47
+   True Negative: 31
+   False Positive: 154
+   False negative: 18
+ Depth:  2
+   Accuracy: 39.6
+   True Positive: 56
+   True Negative: 43
+   False Positive: 142
+   False negative: 9
+ Depth:  3
+   Accuracy: 46.400000000000006
+   True Positive: 48
+   True Negative: 68
+   False Positive: 117
+   False negative: 17
+ Depth:  4
+   Accuracy: 53.6
+   True Positive: 33
+   True Negative: 101
+   False Positive: 84
+   False negative: 32
+ Depth:  5
+   Accuracy: 64.0
+   True Positive: 47
+   True Negative: 113
+   False Positive: 72
+   False negative: 18
+ Depth:  6
+   Accuracy: 62.8
+   True Positive: 39
+   True Negative: 118
+   False Positive: 67
+   False negative: 26
+ Depth:  7
+   Accuracy: 66.4
+   True Positive: 26
+   True Negative: 140
+   False Positive: 45
+   False negative: 39
+ Depth:  8
+   Accuracy: 66.4
+   True Positive: 30
+   True Negative: 136
+   False Positive: 49
+   False negative: 35
+ Depth:  9
+   Accuracy: 63.2
+   True Positive: 34
+   True Negative: 124
+   False Positive: 61
+   False negative: 31
+ Depth:  10
+   Accuracy: 61.199999999999996
+   True Positive: 40
+   True Negative: 113
+   False Positive: 72
+   False negative: 25
+ Depth:  11
+   Accuracy: 61.6
+   True Positive: 31
+   True Negative: 123
+   False Positive: 62
+   False negative: 34
+ Depth:  12
+   Accuracy: 62.0
+   True Positive: 29
+   True Negative: 126
+   False Positive: 59
+   False negative: 36
+ Depth:  13
+   Accuracy: 58.8
+   True Positive: 28
+   True Negative: 119
+   False Positive: 66
+   False negative: 37
+ Depth:  14
+   Accuracy: 57.99999999999999
+   True Positive: 28
+   True Negative: 117
+   False Positive: 68
+   False negative: 37
+ Depth:  15
+   Accuracy: 61.199999999999996
+   True Positive: 31
+   True Negative: 122
+   False Positive: 63
+   False negative: 34
+ Depth:  16
+   Accuracy: 60.4
+   True Positive: 29
+   True Negative: 122
+   False Positive: 63
+   False negative: 36
+ Depth:  17
+   Accuracy: 60.8
+   True Positive: 29
+   True Negative: 123
+   False Positive: 62
+   False negative: 36
+ Depth:  18
+   Accuracy: 61.199999999999996
+   True Positive: 30
+   True Negative: 123
+   False Positive: 62
+   False negative: 35
+ Depth:  19
+   Accuracy: 60.8
+   True Positive: 29
+   True Negative: 123
+   False Positive: 62
+   False negative: 36
+
+Process finished with exit code 0
