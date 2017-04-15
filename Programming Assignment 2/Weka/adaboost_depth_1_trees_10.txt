@@ -1,0 +1,126 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.RandomForest -- -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 1
+Relation:     agaricuslepiotatrain1-weka.filters.unsupervised.attribute.Remove-R22-weka.filters.unsupervised.attribute.NumericToNominal-R21
+Instances:    6000
+Attributes:   126
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 2.0
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 0.63
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 2.33
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 0.67
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 2.13
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 2.29
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 1.22
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 0.98
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 0.79
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 0.41
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 3.63 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.16 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1721               80.9882 %
+Incorrectly Classified Instances       404               19.0118 %
+Kappa statistic                          0.1118
+Mean absolute error                      0.1705
+Root mean squared error                  0.3858
+Relative absolute error                 30.6883 %
+Root relative squared error             69.4136 %
+Total Number of Instances             2125     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.807    0.000    1.000      0.807    0.893      0.243    0.986     1.000     0
+                 1.000    0.193    0.073      1.000    0.137      0.243    0.986     0.356     1
+Weighted Avg.    0.810    0.003    0.986      0.810    0.882      0.243    0.986     0.990     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1689  404 |    a = 0
+    0   32 |    b = 1
+

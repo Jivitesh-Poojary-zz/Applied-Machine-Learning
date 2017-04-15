@@ -1,0 +1,86 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 5 -W weka.classifiers.trees.RandomForest -- -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1 -depth 1
+Relation:     agaricuslepiotatrain1-weka.filters.unsupervised.attribute.Remove-R22-weka.filters.unsupervised.attribute.NumericToNominal-R21
+Instances:    6000
+Attributes:   126
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 2.0
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 0.63
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 2.33
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 0.67
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -depth 1 -do-not-check-capabilities
+
+Weight: 2.13
+
+Number of performed Iterations: 5
+
+
+Time taken to build model: 2.21 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.12 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1789               84.1882 %
+Incorrectly Classified Instances       336               15.8118 %
+Kappa statistic                          0.1361
+Mean absolute error                      0.1561
+Root mean squared error                  0.3688
+Relative absolute error                 28.1015 %
+Root relative squared error             66.3577 %
+Total Number of Instances             2125     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.839    0.000    1.000      0.839    0.913      0.270    0.938     0.998     0
+                 1.000    0.161    0.087      1.000    0.160      0.270    0.938     0.110     1
+Weighted Avg.    0.842    0.002    0.986      0.842    0.901      0.270    0.938     0.985     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1757  336 |    a = 0
+    0   32 |    b = 1
+

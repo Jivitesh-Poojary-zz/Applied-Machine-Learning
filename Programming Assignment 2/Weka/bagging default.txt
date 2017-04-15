@@ -1,0 +1,45 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 10 -W weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Relation:     agaricuslepiotatrain1-weka.filters.unsupervised.attribute.Remove-R22-weka.filters.unsupervised.attribute.NumericToNominal-R21
+Instances:    6000
+Attributes:   126
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Bagging with 10 iterations and base learner
+
+weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+
+Time taken to build model: 1.89 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.06 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1593               74.9647 %
+Incorrectly Classified Instances       532               25.0353 %
+Kappa statistic                          0.0812
+Mean absolute error                      0.2504
+Root mean squared error                  0.5004
+Relative absolute error                 45.0609 %
+Root relative squared error             90.0298 %
+Total Number of Instances             2125     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.746    0.000    1.000      0.746    0.854      0.206    0.873     0.996     0
+                 1.000    0.254    0.057      1.000    0.107      0.206    0.873     0.057     1
+Weighted Avg.    0.750    0.004    0.986      0.750    0.843      0.206    0.873     0.982     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1561  532 |    a = 0
+    0   32 |    b = 1
+
