@@ -1,0 +1,66 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     monks-3-train-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,1
+Instances:    122
+Attributes:   7
+              a1
+              a2
+              a3
+              a4
+              a5
+              a6
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+a2 <= 2
+|   a5 <= 3: Yes (62.0/5.0)
+|   a5 > 3: No (19.0)
+a2 > 2
+|   a4 <= 1
+|   |   a3 <= 1
+|   |   |   a1 <= 1: No (2.0)
+|   |   |   a1 > 1: Yes (3.0)
+|   |   a3 > 1: No (9.0)
+|   a4 > 1: No (27.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         412               95.3704 %
+Incorrectly Classified Instances        20                4.6296 %
+Kappa statistic                          0.907 
+Mean absolute error                      0.0866
+Root mean squared error                  0.2226
+Relative absolute error                 17.3083 %
+Root relative squared error             44.4732 %
+Total Number of Instances              432     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.965    0.059    0.948      0.965    0.957      0.907    0.925     0.921     Yes
+                 0.941    0.035    0.960      0.941    0.950      0.907    0.925     0.931     No
+Weighted Avg.    0.954    0.048    0.954      0.954    0.954      0.907    0.925     0.926     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 220   8 |   a = Yes
+  12 192 |   b = No
+

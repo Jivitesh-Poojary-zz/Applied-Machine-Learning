@@ -1,0 +1,86 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     monks-2-train-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,1
+Instances:    169
+Attributes:   7
+              a1
+              a2
+              a3
+              a4
+              a5
+              a6
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+a4 <= 1: No (54.0/15.0)
+a4 > 1
+|   a3 <= 1
+|   |   a5 <= 1: No (14.0/2.0)
+|   |   a5 > 1
+|   |   |   a6 <= 1
+|   |   |   |   a1 <= 1: No (12.0)
+|   |   |   |   a1 > 1
+|   |   |   |   |   a2 <= 1: No (2.0)
+|   |   |   |   |   a2 > 1: Yes (9.0)
+|   |   |   a6 > 1
+|   |   |   |   a1 <= 1: Yes (9.0)
+|   |   |   |   a1 > 1
+|   |   |   |   |   a2 <= 1: Yes (8.0)
+|   |   |   |   |   a2 > 1: No (5.0)
+|   a3 > 1
+|   |   a5 <= 1: Yes (14.0/3.0)
+|   |   a5 > 1
+|   |   |   a1 <= 1
+|   |   |   |   a5 <= 2: Yes (2.0)
+|   |   |   |   a5 > 2
+|   |   |   |   |   a6 <= 1
+|   |   |   |   |   |   a2 <= 1: No (2.0)
+|   |   |   |   |   |   a2 > 1: Yes (4.0)
+|   |   |   |   |   a6 > 1: No (5.0/1.0)
+|   |   |   a1 > 1
+|   |   |   |   a2 <= 1
+|   |   |   |   |   a6 <= 1: Yes (3.0)
+|   |   |   |   |   a6 > 1: No (6.0)
+|   |   |   |   a2 > 1: No (20.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         348               80.5556 %
+Incorrectly Classified Instances        84               19.4444 %
+Kappa statistic                          0.543 
+Mean absolute error                      0.2421
+Root mean squared error                  0.3828
+Relative absolute error                 52.7485 %
+Root relative squared error             81.0052 %
+Total Number of Instances              432     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.890    0.366    0.832      0.890    0.860      0.546    0.855     0.906     No
+                 0.634    0.110    0.738      0.634    0.682      0.546    0.855     0.708     Yes
+Weighted Avg.    0.806    0.282    0.801      0.806    0.801      0.546    0.855     0.841     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 258  32 |   a = No
+  52  90 |   b = Yes
+

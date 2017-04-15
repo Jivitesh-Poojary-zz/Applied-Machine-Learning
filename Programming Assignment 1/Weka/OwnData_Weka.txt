@@ -1,0 +1,161 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     German2_Train-weka.filters.unsupervised.attribute.Reorder-R1,2,3,4,5,6,7,8,9,10-weka.filters.unsupervised.attribute.Reorder-R1,2,3,4,5,6,7,8,9,10-weka.filters.unsupervised.attribute.Reorder-R1,2,3,4,5,6,7,8,10,9-weka.filters.unsupervised.attribute.Reorder-R1,2,3,4,5,6,7,8,10,9
+Instances:    750
+Attributes:   10
+               DurationMonth
+               CreditAmount
+               EmploymentSince
+               Guarantors
+               ResidenceSince
+               Property
+               Age
+               Job
+               ForeignWorker
+              Class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+ DurationMonth <= 33
+|    DurationMonth <= 7: No (65.0/7.0)
+|    DurationMonth > 7
+|   |    EmploymentSince <= 73
+|   |   |    Guarantors <= 102
+|   |   |   |    Job <= 172
+|   |   |   |   |    EmploymentSince <= 72
+|   |   |   |   |   |    Guarantors <= 101
+|   |   |   |   |   |   |    EmploymentSince <= 71
+|   |   |   |   |   |   |   |    ResidenceSince <= 1: Yes (2.0)
+|   |   |   |   |   |   |   |    ResidenceSince > 1: No (8.0/1.0)
+|   |   |   |   |   |   |    EmploymentSince > 71
+|   |   |   |   |   |   |   |    Age <= 43
+|   |   |   |   |   |   |   |   |    Age <= 22: No (2.0)
+|   |   |   |   |   |   |   |   |    Age > 22
+|   |   |   |   |   |   |   |   |   |    Age <= 26: Yes (9.0)
+|   |   |   |   |   |   |   |   |   |    Age > 26
+|   |   |   |   |   |   |   |   |   |   |    Age <= 28: No (2.0)
+|   |   |   |   |   |   |   |   |   |   |    Age > 28
+|   |   |   |   |   |   |   |   |   |   |   |    CreditAmount <= 3331: Yes (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |    CreditAmount > 3331: No (2.0)
+|   |   |   |   |   |   |   |    Age > 43: No (3.0)
+|   |   |   |   |   |    Guarantors > 101: Yes (3.0/1.0)
+|   |   |   |   |    EmploymentSince > 72: No (50.0/17.0)
+|   |   |   |    Job > 172
+|   |   |   |   |    Property <= 121: No (61.0/14.0)
+|   |   |   |   |    Property > 121
+|   |   |   |   |   |    Guarantors <= 101
+|   |   |   |   |   |   |    CreditAmount <= 1424
+|   |   |   |   |   |   |   |    EmploymentSince <= 72
+|   |   |   |   |   |   |   |   |    Property <= 122
+|   |   |   |   |   |   |   |   |   |    ResidenceSince <= 2: No (2.0)
+|   |   |   |   |   |   |   |   |   |    ResidenceSince > 2
+|   |   |   |   |   |   |   |   |   |   |    DurationMonth <= 13: Yes (3.0)
+|   |   |   |   |   |   |   |   |   |   |    DurationMonth > 13: No (3.0/1.0)
+|   |   |   |   |   |   |   |   |    Property > 122: Yes (7.0)
+|   |   |   |   |   |   |   |    EmploymentSince > 72
+|   |   |   |   |   |   |   |   |    ResidenceSince <= 2
+|   |   |   |   |   |   |   |   |   |    CreditAmount <= 888: No (2.0)
+|   |   |   |   |   |   |   |   |   |    CreditAmount > 888: Yes (10.0/1.0)
+|   |   |   |   |   |   |   |   |    ResidenceSince > 2: No (6.0/2.0)
+|   |   |   |   |   |   |    CreditAmount > 1424
+|   |   |   |   |   |   |   |    Property <= 122
+|   |   |   |   |   |   |   |   |    Job <= 173
+|   |   |   |   |   |   |   |   |   |    EmploymentSince <= 72
+|   |   |   |   |   |   |   |   |   |   |    CreditAmount <= 2746
+|   |   |   |   |   |   |   |   |   |   |   |    DurationMonth <= 18: No (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |    DurationMonth > 18
+|   |   |   |   |   |   |   |   |   |   |   |   |    CreditAmount <= 2146: Yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |    CreditAmount > 2146: No (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |    CreditAmount > 2746: Yes (4.0)
+|   |   |   |   |   |   |   |   |   |    EmploymentSince > 72
+|   |   |   |   |   |   |   |   |   |   |    ResidenceSince <= 2: Yes (4.0)
+|   |   |   |   |   |   |   |   |   |   |    ResidenceSince > 2: No (6.0/2.0)
+|   |   |   |   |   |   |   |   |    Job > 173
+|   |   |   |   |   |   |   |   |   |    DurationMonth <= 16: Yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |    DurationMonth > 16: No (7.0)
+|   |   |   |   |   |   |   |    Property > 122
+|   |   |   |   |   |   |   |   |    Job <= 173: No (72.0/15.0)
+|   |   |   |   |   |   |   |   |    Job > 173
+|   |   |   |   |   |   |   |   |   |    DurationMonth <= 27
+|   |   |   |   |   |   |   |   |   |   |    CreditAmount <= 9034: No (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |    CreditAmount > 9034: Yes (2.0)
+|   |   |   |   |   |   |   |   |   |    DurationMonth > 27: Yes (2.0)
+|   |   |   |   |   |    Guarantors > 101
+|   |   |   |   |   |   |    Property <= 123: Yes (6.0/1.0)
+|   |   |   |   |   |   |    Property > 123: No (2.0)
+|   |   |    Guarantors > 102: No (19.0/2.0)
+|   |    EmploymentSince > 73
+|   |   |    Property <= 123: No (203.0/40.0)
+|   |   |    Property > 123
+|   |   |   |    EmploymentSince <= 74
+|   |   |   |   |    CreditAmount <= 2331: Yes (5.0)
+|   |   |   |   |    CreditAmount > 2331: No (2.0)
+|   |   |   |    EmploymentSince > 74: No (25.0/7.0)
+ DurationMonth > 33
+|    Age <= 26: Yes (20.0/2.0)
+|    Age > 26
+|   |    EmploymentSince <= 71: No (9.0/1.0)
+|   |    EmploymentSince > 71
+|   |   |    Property <= 122: No (19.0/5.0)
+|   |   |    Property > 122
+|   |   |   |    ResidenceSince <= 3
+|   |   |   |   |    EmploymentSince <= 73
+|   |   |   |   |   |    ResidenceSince <= 2
+|   |   |   |   |   |   |    ResidenceSince <= 1: Yes (5.0/1.0)
+|   |   |   |   |   |   |    ResidenceSince > 1
+|   |   |   |   |   |   |   |    DurationMonth <= 42: No (6.0/1.0)
+|   |   |   |   |   |   |   |    DurationMonth > 42
+|   |   |   |   |   |   |   |   |    Job <= 173: Yes (2.0)
+|   |   |   |   |   |   |   |   |    Job > 173: No (2.0)
+|   |   |   |   |   |    ResidenceSince > 2: Yes (2.0)
+|   |   |   |   |    EmploymentSince > 73
+|   |   |   |   |   |    Age <= 53: No (20.0/2.0)
+|   |   |   |   |   |    Age > 53: Yes (2.0)
+|   |   |   |    ResidenceSince > 3
+|   |   |   |   |    DurationMonth <= 42
+|   |   |   |   |   |    CreditAmount <= 2996: Yes (6.0)
+|   |   |   |   |   |    CreditAmount > 2996
+|   |   |   |   |   |   |    CreditAmount <= 7824: No (7.0)
+|   |   |   |   |   |   |    CreditAmount > 7824: Yes (6.0/1.0)
+|   |   |   |   |    DurationMonth > 42: Yes (15.0/3.0)
+
+Number of Leaves  : 	52
+
+Size of the tree : 	103
+
+
+Time taken to build model: 0.01 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         182               72.8    %
+Incorrectly Classified Instances        68               27.2    %
+Kappa statistic                          0.2234
+Mean absolute error                      0.3686
+Root mean squared error                  0.4796
+Relative absolute error                 89.7639 %
+Root relative squared error            108.5246 %
+Total Number of Instances              250     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.865    0.662    0.788      0.865    0.825      0.228    0.599     0.771     No
+                 0.338    0.135    0.468      0.338    0.393      0.228    0.599     0.360     Yes
+Weighted Avg.    0.728    0.525    0.705      0.728    0.712      0.228    0.599     0.664     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 160  25 |   a = No
+  43  22 |   b = Yes
+
